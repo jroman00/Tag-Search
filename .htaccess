@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteRule ^search$ search.php [QSA,NC,L]
+RewriteRule ^tag/([a-z\-]+)$ tag.php?tag=$1 [NC,L]
